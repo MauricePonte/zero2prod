@@ -1,0 +1,27 @@
+# Exclude build artifacts and temporary files
+**/*.rs.bk
+**/*.bk
+**/*.swp
+
+# Exclude Cargo files
+Cargo.lock
+**/.cargo/
+
+# Exclude git files
+**/.git/
+**/.gitignore
+
+# Exclude IDE and editor-specific files
+.vscode/
+
+# Exclude system and hidden files
+**/.DS_Store
+**/Thumbs.db
+**/.fuse_hidden*
+
+.env
+target/
+tests/
+Dockerfile
+scripts/
+migrations/
